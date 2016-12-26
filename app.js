@@ -51,7 +51,7 @@ if (cluster.isMaster) {
     app.post('/signup', function(req, res) {
         var item = {
             'email': {'S': req.body.email},
-            "time": {"S": new Date()},
+            "time": {"S": new Date().toISOString()},
             'name': {'S': req.body.name},
             'preview': {'S': req.body.previewAccess},
             'theme': {'S': req.body.theme}
