@@ -23,8 +23,8 @@ You can get started using the following steps:
     2. Select the **[ Create New Application ]** option.
     3. Enter the application name of your choice.
     4. Answer **yes** to *It appears you are using Node.js. Is this correct?*.
-    7. Choose whether you want SSH access to the Amazon EC2 instances.  
-      *Note: If you choose to enable SSH and do not have an existing SSH key stored on AWS, the EB CLI requires ssh-keygen to be available on the path to generate SSH keys.*  
+    7. Choose whether you want SSH access to the Amazon EC2 instances.
+      *Note: If you choose to enable SSH and do not have an existing SSH key stored on AWS, the EB CLI requires ssh-keygen to be available on the path to generate SSH keys.*
   4. Run `eb create --instance_profile aws-elasticbeanstalk-sample-role` to begin the creation of your environment.
     1. Enter the environment name of your choice.
     2. Enter the CNAME prefix you want to use for this environment.
